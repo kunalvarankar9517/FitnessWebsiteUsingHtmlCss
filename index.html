@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+            body{
+
+                margin:0 px;
+                padding:0px;
+                background: url('1.jpg');
+                color:white;
+                background-repeat: none;
+            }
+            .left{
+                display:inline-block;
+                position:absolute;
+                left:34px;
+                top:20px;
+               /* border: 2px solid red */
+            }
+            
+            .left img{
+                width:90px;
+            }
+
+
+            .mid{
+                display:block;
+                width:40%;
+                /* margin-top:20px ; */
+                margin:20px auto;
+                /* border: 2px solid rgb(15, 165, 65) */
+            }
+            .right{
+                position:absolute;
+                right:34px;
+                top:20px;
+                display:inline-block;
+                /* border: 2px solid rgb(16, 13, 194) */
+            }
+            .navbar{
+                display:inline-block;
+            }
+           .navbar li{
+            display: inline-block;
+            font-size: 20px;
+           }
+
+           .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding:25px 10px;
+           }
+
+           .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color:grey;
+           }
+
+           .btn{
+
+            margin:0px 9px;
+            background-color: black;
+            color:white
+           }
+
+           .container{
+            /* border:2px solid blue; */
+            margin-top: 62px;
+            width:40%;
+            padding: 30px;
+           }
+
+           input{
+            margin-bottom: 10px;
+           }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+        <img src="./logo.png">
+        <div>Kunal Fitness</div>
+        </div>
+        <div class="mid">
+         <ul class="navbar">
+            <li><a href="#" ></a>Home</li>
+            <li><a href="#"></a>About Us</li>
+            <li><a href="#"></a>Fitness Calculator</li>
+            <li><a href="#"></a>Contact Us</li>
+         </ul>
+        </div>
+        <div class="right">
+         <button class="btn">Callus</button>
+         <button class="btn">EmailUs</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Welcome To Kunal's Fitness</h2>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Your name"/>
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Enter Your Email"/>
+        </div>
+
+        <div class="form-group">
+            <input type="text" placeholder="Enter Your MobNo."/>
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+
+  
+</body>
+</html>
